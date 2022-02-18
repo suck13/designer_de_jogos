@@ -1,0 +1,234 @@
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+div#botao {
+    margin: 0 auto;
+    max-height: 711px;
+    max-width: 120px;
+    float: all;
+    font-size: 11pt;
+    position: absolute;
+    align-items: center;
+}
+
+div.cabecalho {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+	max-height: 19px;
+    max-width: 492px;
+}
+
+div.conteudoind {
+    margin: 0 auto;
+    min-height: 612px;
+    max-width: 565px;
+    padding-top: 15%;
+    vertical-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+div#rodape{
+    background-color: #081935d0;
+    border-left: 4px solid #ffffff;
+}
+
+h1.membro {
+    max-width: 700px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+div.conteudo {
+    padding-top: 15px;
+	margin: 0 auto;
+	min-height: 578px;
+    max-width: 759px;
+    text-align: center;
+
+}
+
+a.b{
+    color: white;
+}
+
+
+p{
+    text-shadow: 0px 0px 1px #000000 ,0px 0px 2px #000000, 0px 0px 3px #000000, 0px 0px 4px #000000 ;
+}
+
+h1{
+    text-shadow: 0px 0px 1px #000000 ,0px 0px 2px #000000, 0px 0px 3px #000000, 0px 0px 4px #000000 ;
+    text-decoration: underline;
+}
+
+h2{
+    text-shadow: 0px 0px 1px #000000 ,0px 0px 2px #000000, 0px 0px 3px #000000, 0px 0px 4px #000000 ;
+}
+
+ul.a{
+    text-shadow: 0px 0px 1px #000000 ,0px 0px 2px #000000, 0px 0px 3px #000000, 0px 0px 4px #000000 ;
+    list-style-type: none;
+}
+
+h1.alal {
+    width: 500px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+
+div#titulo {
+	margin: 0 auto;
+	max-width: 500px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-bottom: 3px solid white;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+    text-shadow: 0px 0px 1px #000000 ,0px 0px 2px #000000, 0px 0px 3px #000000, 0px 0px 4px #000000 ;
+}
+
+
+div#integrantes {
+    display: block;
+	margin: 0 auto;
+	max-height: 772px;
+    max-width: 700px;
+}
+
+div#box {
+	margin: 0 auto;
+	max-height: 800px;
+    max-width: 750px;
+    border-bottom: 3px solid white;
+}
+
+div.box {
+    margin-left: 80px;
+	max-height: 250px;
+	max-width: 260px;
+    display: inline-block;
+}
+
+div.box2 {
+	max-height: 250px;
+	display: inline-block;
+}
+
+img#controle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%; 
+}
+
+img#membros {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+img#vinicius {
+	display: block;
+    margin-right: 62%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+img#reuel {
+	display: block;
+    margin-left: 72%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+img#william { 
+	display: block;
+    margin-right: 62%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+img#luvas { 
+	display: block;
+    margin-left: 72%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+img#projektred, #geralt, #rockstar, #andreas, #reddead, #mojang, #minecraft, #ea, #fifa {
+	display: block;
+	margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+ul.menu {
+	list-style-type: none;
+    padding: 0px;
+}
+
+ul.menu li {
+    float: left;
+}
+
+ul.menu a:link, ul.menu a:visited {
+    display: block;
+    max-width: 96px;
+	font-weight: bold;	
+	text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5), 0px 0px 1px #000000 ,0px 0px 2px #000000, 0px 0px 3px #000000, 0px 0px 4px #000000;
+}
+
+ul.menu a:hover, ul.menu a:active {
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+ul.menu1 {
+    list-style-type: none;
+    padding: 0px;
+}
+
+ul.menu1 li {
+    float: left;
+}
+
+ul.menu1 a:link, ul.menu1 a:visited {
+    display: block;
+    max-width: 96px;
+    font-weight: bold;  
+    text-align: center;
+    text-decoration: none;
+    color: green;
+    padding: 16px;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5), 0px 0px 1px #000000 ,0px 0px 2px #000000, 0px 0px 3px #000000, 0px 0px 4px #000000;
+}
+
+ul.menu1 a:hover, ul.menu1 a:active {
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+/*CADASTRO*/
+
+div.botao {
+    margin: 0 auto;
+	max-height: 19px;
+    max-width: 492px;
+}
